@@ -44,13 +44,13 @@ cacheSolve <- function(x) {
 
 ######### USAGE #########
 ## create a non-singular matrix
-m <- matrix(c(1,1,1,4,5,3,1,8,9), nrow=3, ncol=3)
+#m <- matrix(c(1,1,1,4,5,3,1,8,9), nrow=3, ncol=3)
 
 ## create the inverse caching interface object
-x <- makeCacheMatrix(m)                  
+#x <- makeCacheMatrix(m)                  
 
 ## run inverse solve function to cache the inverse
-cacheSolve(x)
+#cacheSolve(x)
 
 ## run inverse solve function again to observe the cached inverse computed above
-cacheSolve(x)
+#cacheSolve(x)
